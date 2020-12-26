@@ -6,6 +6,7 @@ import urllib.request
 import re
 #python3
 #处理页面标签类
+#爬同一个帖子的评论
 class Tool:
     #去除img标签,7位长空格
     removeImg = re.compile('<img.*?>| {7}|')
